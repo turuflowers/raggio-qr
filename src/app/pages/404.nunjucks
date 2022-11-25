@@ -1,0 +1,43 @@
+<!-- index.nunjucksucks -->
+{% extends "layout.nunjucks" %}
+
+{% block meta_head %}
+    <title>{{meta.common.title}}</title>
+    <meta name="description" content="{{meta.common.description}}"/>
+    <meta name="keywords" content="{{ meta.common.keywords }}"/>
+    <meta name="revisit-after" content="1 month">
+
+    <meta property="og:title" content="{{meta.common.title}}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ config.baseurl }}"/>
+    <meta property="og:image" content="{{ meta.common.fbimg }}"/>
+    <meta property="og:description" content="{{meta.common.description}}"/>
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ meta.common.title }}" />
+    <meta name="twitter:description" content="{{ meta.common.description }}" />
+    <meta name="twitter:image:src" content="{{ meta.common.twimg }}" />
+    <meta name="twitter:url" content="{{ config.baseurl }}" />
+{% endblock %}
+
+{% block content %}
+<body class="home">
+    {% import 'macros/navigation.nunjucks' as nav with context %}
+    {{nav.header(labels, 'index')}}
+<main>
+
+    <section id="heading" class="bgblue">
+        <div class="page">
+            <h2 class="text-center">Sorry, but the page you were looking for is unavailable.</h2>
+        </div>
+    </section>
+
+</main>
+
+{% endblock %}
+
+{% block page_scripts %}
+    <!-- build:js /scripts/nav.js -->
+    <script src="/scripts/nav.js"></script>
+    <!-- endbuild -->
+{% endblock %}

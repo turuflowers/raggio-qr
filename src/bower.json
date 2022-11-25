@@ -1,0 +1,34 @@
+{
+  "name": "RoootGroup base",
+  "description": "base dependecies",
+  "main": "index.js",
+  "authors": [
+    "Nicolas Flores <turuflowers@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "roootgroup.com.ar",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "jquery": "^3.4.1",
+    "css-common": "^1.0.0",
+    "components-font-awesome": "^5.15.4",
+    "wow": "^1.1.2"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {}
+}

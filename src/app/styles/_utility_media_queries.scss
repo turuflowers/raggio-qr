@@ -1,0 +1,157 @@
+.col-xl-10{
+  @media only screen and (min-width: 1700px){
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 20%;
+    float: left;
+    width:83.3333333333%;
+  }
+}
+.col-xl-offset-1{
+  @media only screen and (min-width: 1700px){
+    margin-left:8.3333333333%;
+  }
+}
+/*
+5 column width
+*/
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+@media (min-width: $screen-sm-min) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: $screen-md-min) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: $screen-lg-min) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+.hidden-xs-inline {
+  display: inline-block !important;
+}
+
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.col-centered {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nobreak {
+  white-space: nowrap;
+}
+
+@media (max-width: $screen-xs-max) {
+  .hidden-xs-inline {
+    display: none !important;
+  }
+  .no-padding-xs {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .di-xs {
+    display: inline;
+  }
+  .text-center-xs {
+    text-align: center;
+  }
+  .center-block-xs {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .col-centered-xs {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+  .hidden-sm-inline {
+    display: none !important;
+  }
+  .no-padding-sm {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .col-centered-sm {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: $screen-sm) {
+  .pull-right-sm {
+    float: right;
+  }
+  .pull-left-sm {
+    float: left;
+  }
+}
+
+@media (min-width: $screen-md) and (max-width: $screen-md-max) {
+  .hidden-md-inline {
+    display: none !important;
+  }
+  .no-padding-md {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .col-centered-md {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: $screen-lg) {
+  .hidden-lg-inline {
+    display: none !important;
+  }
+  .no-padding-lg {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media (min-width: 2001px) {
+  .img-full-xl{
+    width:100%;
+  }
+}
+
+.table{
+  &.no-borders{
+    td, th{
+      border:none;
+    }
+  }
+}

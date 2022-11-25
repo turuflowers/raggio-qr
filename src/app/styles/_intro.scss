@@ -1,0 +1,118 @@
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+//(xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
+
+$screen-xs:                  0;
+$screen-sm:                  576px;
+$screen-md:                  768px;
+$screen-lg:                  992px;
+$screen-xl:                  1200px;
+
+$screen-xs-max:              ($screen-sm - 1);
+$screen-sm-max:              ($screen-md - 1);
+$screen-md-max:              ($screen-lg - 1);
+$screen-lg-max:              ($screen-xl - 1);
+$screen-xl:                  1200px;
+
+#intro{
+  height:100vh;
+  display: flex;
+  align-content: center;
+  overflow: hidden;
+  position: relative;
+  .page{
+    display: flex;
+    align-content: center;
+    position: relative;
+    max-width: 100%;
+  }
+
+  .deco{
+
+  }
+
+  .logo{
+    max-width: 1000px;
+    width:100%;
+    position: relative;
+    z-index:10;
+  }
+
+  .hexagonos_inferiores{
+    left:15%;
+    bottom:-800px;
+  }
+  .hexagonosiz{
+    left:-450px;
+    top:5%;
+    z-index:1;
+    @media (max-width: 1200px) {
+      left:-500px;
+    }
+    @media (max-width: 480px) {
+      top:-200px;
+      left:-200px;
+    }
+  }
+  .hojasizq{
+    left:-280px;
+    top:0;
+    z-index:10;
+    @media (max-width: 1200px) {
+      width: 50%;
+      left:-180px;
+    }
+    @media (max-width: 480px) {
+      width: 90%;
+      left:-50px;
+      top:-100px;
+    }
+  }
+  .manchitasizq01{
+    left:10%;
+    top:0%;
+    z-index:5;
+    @media (max-width: 1000px) {
+      width: 30%;
+    }
+    @media (max-width: 480px) {
+      width: 100%;
+      left:-50px;
+      top:0;
+    }
+  }
+  .manchitasizq02{
+    left:10%;
+    bottom:0%;
+    z-index:5;
+    @media (max-width: 1000px) {
+      width: 30%;
+    }
+  }
+  .hojas_inferiores{
+    right:-150px;
+    bottom:-20%;
+    @media (max-width: 1200px) {
+      width: 50%;
+    }
+    @media (max-width: 480px) {
+      width: 100%;
+      right:0;
+      bottom:-10%;
+    }
+  }
+  .manchitas_inferiores{
+    right:0%;
+    bottom:10%;
+    @media (max-width: 1000px) {
+      width: 30%;
+    }
+    @media (max-width: 480px) {
+      width: 100%;
+      right:0;
+      bottom:0%;
+    }
+  }
+
+}

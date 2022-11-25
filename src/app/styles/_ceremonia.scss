@@ -1,0 +1,93 @@
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+//(xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
+
+$screen-xs:                  0;
+$screen-sm:                  576px;
+$screen-md:                  768px;
+$screen-lg:                  992px;
+$screen-xl:                  1200px;
+
+$screen-xs-max:              ($screen-sm - 1);
+$screen-sm-max:              ($screen-md - 1);
+$screen-md-max:              ($screen-lg - 1);
+$screen-lg-max:              ($screen-xl - 1);
+$screen-xl:                  1200px;
+
+#ceremonia{
+  position: relative;
+  overflow: hidden;
+
+  .iglesia{
+    max-width: 90px;
+  }
+  .bg-1{
+    padding-top:2em;
+    padding-bottom:2em;
+  }
+  align-content: center;
+  .page{
+    padding:0;
+  }
+
+  h2{
+    font-family: 'Hello Honey' !important;
+    font-size:4.75em;
+    line-height: 1;
+    margin-top:.3em;
+    @media (max-width: 480px) {
+      font-size:3.75em;
+    }
+  }
+  .subtitle{
+    font-size:1em;
+    @media (max-width: 480px) {
+      font-size:1.375em;
+    }
+  }
+
+  hr{
+    border: none;
+    background: url(/images/hr.svg) no-repeat center;
+    height:60px;
+    display: block;
+    width:100%;
+  }
+  #vestimenta{
+    margin:0 auto;
+    max-width: 500px;
+    h3{
+      font-size:1.5em;
+    }
+  }
+
+  .hojasderecha{
+    right:0;
+    top:0;
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+  .lineasderecha{
+    right:0;
+    top:-50%;
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+  .hojasizq{
+    left:0;
+    bottom:0;
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+  .lineasizquierda{
+    left:0;
+    bottom:0;
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+}

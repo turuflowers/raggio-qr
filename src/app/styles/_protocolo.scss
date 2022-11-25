@@ -1,0 +1,58 @@
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+//(xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
+
+$screen-xs:                  0;
+$screen-sm:                  576px;
+$screen-md:                  768px;
+$screen-lg:                  992px;
+$screen-xl:                  1200px;
+
+$screen-xs-max:              ($screen-sm - 1);
+$screen-sm-max:              ($screen-md - 1);
+$screen-md-max:              ($screen-lg - 1);
+$screen-lg-max:              ($screen-xl - 1);
+$screen-xl:                  1200px;
+
+#protocolo{
+  .page{
+    max-width: 680px;
+    padding:0;
+  }
+  .bg-1{
+    padding-top:2em;
+    padding-bottom:2em;
+  }
+  .item{
+    padding-bottom:2em;
+    display: flex;
+    align-items: center;
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
+
+    .imagen{
+      padding:0 1em 0 0;
+      width:80px;
+      .icon{
+        width: 50px;
+      }
+      @media (max-width: 600px) {
+        padding:1em;
+      }
+
+    }
+    .contenido{
+      width:calc(100% - 80px);
+      @media (max-width: 600px) {
+        text-align: center;
+        width:100%;
+      }
+      @media (max-width: 480px) {
+        font-size:.875em;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,52 @@
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+//(xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
+
+$screen-xs:                  0;
+$screen-sm:                  576px;
+$screen-md:                  768px;
+$screen-lg:                  992px;
+$screen-xl:                  1200px;
+
+$screen-xs-max:              ($screen-sm - 1);
+$screen-sm-max:              ($screen-md - 1);
+$screen-md-max:              ($screen-lg - 1);
+$screen-lg-max:              ($screen-xl - 1);
+$screen-xl:                  1200px;
+
+#cierre{
+  padding-top:2em;
+  padding-bottom:2em;
+  .bg-1{
+    padding-top:3em;
+    padding-bottom:3em;
+  }
+  align-content: center;
+
+  h2{
+    font-family: 'Hello Honey' !important;
+    font-size:3em;
+    line-height: 1;
+    color: $color1;
+    @media (max-width: 480px) {
+      font-size:3.75em;
+    }
+  }
+  .page{
+    background: url(/images/fondo.jpg) no-repeat center;
+    background-size: auto 100%;
+    height:50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 480px) {
+      background: url(/images/fondo_mb.jpg) no-repeat center;
+      height:65vh;
+      padding-top:2em;
+      padding-bottom:2em;
+    }
+
+  }
+
+}

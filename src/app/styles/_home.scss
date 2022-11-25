@@ -1,0 +1,171 @@
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+//(xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
+
+$screen-xs:                  0;
+$screen-sm:                  576px;
+$screen-md:                  768px;
+$screen-lg:                  992px;
+$screen-xl:                  1200px;
+
+$screen-xs-max:              ($screen-sm - 1);
+$screen-sm-max:              ($screen-md - 1);
+$screen-md-max:              ($screen-lg - 1);
+$screen-lg-max:              ($screen-xl - 1);
+$screen-xl:                  1200px;
+
+#fecha{
+  .dance{
+    max-width: 90px;
+  }
+  .date{
+    padding-top:1em;
+    padding-bottom:1em;
+    text-align: center;
+    @media (max-width: 480px) {
+      font-size:85%;
+    }
+    .dia, .hora{
+      font-size:1.5em;
+      min-width: 95px;
+      border-top:1px solid #fff;
+      border-bottom:1px solid #fff;
+      display: inline-block;
+      padding-top:.8em;
+      padding-bottom:.8em;
+      margin-left:.5em;
+      margin-right:.5em;
+    }
+    .numero{
+      display: inline-block;
+      position: relative;
+      top:1.8em;
+      .n{
+        font-size:5em;
+        font-weight:100;
+      }
+      .mes{
+        display: block;
+        font-size:1.5em;
+      }
+    }
+  }
+}
+.countdown{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin:0 auto;
+  max-width: 860px;
+  @media (max-width: 900px) {
+    max-width: 100%;
+  }
+  @media (max-width: 480px) {
+    flex-wrap: wrap;
+    padding-bottom:100px;
+  }
+  .modulo{
+    width:20%;
+    background: url(/images/contador.svg) no-repeat center;
+    background-size: auto 100%;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    @media (max-width: 900px) {
+      width:23%;
+      background-size: 80% auto;
+      font-size:60%;
+    }
+    @media (max-width: 600px) {
+      height:100px;
+      background-size: 70% auto;
+      font-size:50%;
+    }
+    @media (max-width: 480px) {
+      width:45%;
+      height:200px;
+      background-size: 100% auto;
+      font-size:100%;
+    }
+    &.days{
+      @media (max-width: 480px) {
+        position: relative;
+        top:-40px;
+        left:5%;
+      }
+    }
+    &.hours{
+      @media (max-width: 480px) {
+        position: relative;
+        top:80px;
+        right:5%;
+      }
+    }
+    &.minutes{
+      @media (max-width: 480px) {
+        position: relative;
+        top:0;
+        left:5%;
+      }
+    }
+    &.seconds{
+      @media (max-width: 480px) {
+        position: relative;
+        top:120px;
+        right:5%;
+      }
+    }
+    .numero{
+      font-size:3em;
+      font-weight:100;
+      line-height: 1;
+      @media (max-width: 600px) {
+        font-weight:200;
+      }
+    }
+    .etiqueta{
+      display: block;
+      font-size:1.25em;
+      line-height: 1;
+      @media (max-width: 600px) {
+        font-weight:300;
+      }
+    }
+  }
+}
+
+#clock{
+  position: relative;
+  overflow: hidden;
+
+  .container-fluid{
+    padding-bottom:80px;
+    @media (max-width: 480px) {
+      padding-top:40px;
+      padding-bottom:40px;
+    }
+  }
+
+
+  .hexagonos_inferiores{
+    left:50%;
+    transform: translateX(-46%);
+    top:-800px;
+    @media (max-width: 1100px) {
+      width:40%;
+      top:-200px;
+    }
+    @media (max-width: 700px) {
+      width:60%;
+      top:-200px;
+    }
+    @media (max-width: 480px) {
+      width:100%;
+      top:-200px;
+    }
+
+  }
+}

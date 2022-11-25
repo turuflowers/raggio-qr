@@ -1,1 +1,10 @@
-# raggio-qr
+# raggio-qr #
+
+## Repository
+
+git clone 
+
+## Mockup
+
+
+## FTP 

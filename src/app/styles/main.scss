@@ -1,0 +1,208 @@
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+//(xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
+
+$screen-xs:                  0;
+$screen-sm:                  576px;
+$screen-md:                  768px;
+$screen-lg:                  992px;
+$screen-xl:                  1200px;
+
+$screen-xs-max:              ($screen-sm - 1);
+$screen-sm-max:              ($screen-md - 1);
+$screen-md-max:              ($screen-lg - 1);
+$screen-lg-max:              ($screen-xl - 1);
+$screen-xl:                  1200px;
+
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/components-font-awesome/scss/fontawesome.scss";
+// endbower
+
+
+@import "_animate.scss";
+@import "_utility_media_queries.scss";
+
+:root {
+  --animate-duration: 1.5s;
+}
+
+$color0:#888683;
+$color1:#B78F54;
+$color2:#B69668;
+$color3:#859E7F;
+$color4:#fffbf5;
+$color5:#000;
+$color6:#a3a6a8;
+$color7:#8f8f8f;
+$color8:#5c5c5c;
+$color9:#deb407;
+$color10:#7ccbf0;
+
+.fc-0{ color: $color0 }
+.fc-1{ color: $color1 }
+.fc-2{ color: $color2 }
+.fc-3{ color: $color3 }
+.fc-4{ color: $color4 }
+.fc-5{ color: $color5 }
+.fc-6{ color: $color6 }
+.fc-7{ color: $color7 }
+.fc-8{ color: $color8 }
+.fc-9{ color: $color9 }
+
+.fc-fff{ color: #fff }
+.fc-000{ color: #000 }
+
+.bg-fff {background: #fff;}
+.bg-0{ background-color: $color0; color: #fff; }
+.bg-1{ background-color: $color1; color: #fff; }
+.bg-2{ background-color: $color2; color: #fff; }
+.bg-3{ background-color: $color3; color: #fff; }
+.bg-4{ background-color: $color4 }
+.bg-5{ background-color: $color5 }
+.bg-6{ background-color: $color6 }
+.bg-7{ background-color: $color7 }
+.bg-8{ background-color: $color8 }
+.bg-9{ background-color: $color9 }
+.bg-10{ background-color: $color10 }
+
+$icon-font-path: '../fonts/';
+
+.container-fluid{
+  max-width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:120px;
+  padding-bottom:40px;
+  @media (max-width: 480px) {
+    padding-top:60px;
+    padding-bottom:60px;
+  }
+}
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@import "_fonts.scss";
+
+body{
+  background: #fff;
+  margin:0;
+  overflow-x: hidden;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.btn{
+  text-decoration: none;
+  transition-property:background, color;
+  transition-duration:0.2s;
+  transition-timing-function:ease-in-out;
+  border-radius: 0;
+  white-space: normal;
+  text-transform: uppercase;
+  min-width: 240px;
+  font-size:1em;
+
+  &:hover{
+    transition-property:background, color;
+    transition-duration:0.2s;
+    transition-timing-function:ease-in-out;
+  }
+}
+
+.btn-primary{
+  background: $color2;
+  color:#fff;
+  border-color:$color2;
+  font-weight: 300;
+
+
+  &:hover{
+    color:$color2;
+    background: #fff;
+    border-color:$color2;
+  }
+}
+
+.anchor{
+  position: relative;
+  top:-90px;
+  @media (max-width: 480px) {
+    top:0;
+  }
+
+}
+
+.btn-primary-i{
+  background: #fff;
+  color:$color2;
+  border-color:$color2;
+  font-weight: 300;
+
+  &:hover{
+    background: $color2;
+    color:#fff;
+    border-color:#fff;
+  }
+}
+
+img{
+  width: auto;
+  max-width: 100%;
+}
+
+.page{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.mfp-bg{
+  background:rgba(226, 244, 252, 0.9);
+}
+
+.icon{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.d-block{
+  display: block;
+}
+
+.deco{
+  position: absolute;
+}
+
+@import "_nav.scss";
+@import "_intro.scss";
+@import "_home.scss";
+@import "_ceremonia.scss";
+@import "_asistencia.scss";
+@import "_regalos.scss";
+@import "_social.scss";
+@import "_protocolo.scss";
+@import "_cierre.scss";

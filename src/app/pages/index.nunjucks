@@ -1,0 +1,276 @@
+<!-- index.nunjucksucks -->
+{% extends "layout.nunjucks" %}
+
+{% block meta_head %}
+    <title>{{meta.common.title}}</title>
+    <meta name="description" content="{{meta.common.description}}"/>
+    <meta name="keywords" content="{{ meta.common.keywords }}"/>
+    <meta name="revisit-after" content="1 month">
+
+    <meta property="og:title" content="{{meta.common.title}}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ config.baseurl }}"/>
+    <meta property="og:image" content="{{ meta.common.fbimg }}"/>
+    <meta property="og:description" content="{{meta.common.description}}"/>
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ meta.common.title }}" />
+    <meta name="twitter:description" content="{{ meta.common.description }}" />
+    <meta name="twitter:image:src" content="{{ meta.common.twimg }}" />
+    <meta name="twitter:url" content="{{ config.baseurl }}" />
+{% endblock %}
+
+{% block content %}
+<body class="home">
+    {% import 'macros/navigation.nunjucks' as nav with context %}
+    {{nav.header(labels, 'home')}}
+<main>
+    <section id="intro">
+        <div class="page">
+            <h1 class="sr-only">
+                Ceci & Martín
+            </h1>
+            <img src="/images/ceciymartin.svg" alt="" class="logo hidden-xs">
+            <img src="/images/ceciymartin_mb.svg" alt="" class="logo hidden-sm hidden-md hidden-lg">
+        </div>
+        {#<div class="bg"></div>#}
+        <img src="/images/01_hojasizq.png" alt="" class="deco hojasizq">
+        <img src="/images/01_hexagonos_inferiores.svg" alt="" class="deco hexagonos_inferiores">
+        <img src="/images/01_hexagonosiz.svg" alt="" class="deco hexagonosiz">
+        <img src="/images/01_manchitasizq01.svg" alt="" class="deco manchitasizq01">
+        <img src="/images/01_manchitasizq02.svg" alt="" class="deco manchitasizq02">
+        <img src="/images/01hojas_inferiores.png" alt="" class="deco hojas_inferiores">
+        <img src="/images/01_manchitas_inferiores.svg" alt="" class="deco manchitas_inferiores">
+    </section>
+    <section id="fecha">
+        <div class="bg-3 fc-fff">
+            <div class="container-fluid">
+                <div class="page">
+                    <div class="wow animate__animated animate__fadeIn ">
+                        <img src="/images/dance.svg" alt="" class="icon dance img-responsive">
+                    </div>
+                    <h2 class="wow animate__animated animate__flipInX ">¡NOS CASAMOS!</h2>
+                    <p class="wow animate__animated animate__fadeInDown text-center fs-big">Nos llena de alegría compartir este día tan especial&nbsp;con&nbsp;vos. <span class="d-block">¡Gracias por ser parte!</span></p>
+
+                    <div class="wow animate__animated animate__fadeInDown date">
+                        <span class="dia">
+                            Sábado
+                        </span>
+                        <span class="numero">
+                            <span class="n">16</span>
+                            <span class="mes">abril</span>
+                        </span>
+                        <span class="hora">
+                            17 hs.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="clock">
+            <div class="container-fluid text-center">
+                <div class="countdown">
+                    <div class="wow animate__animated animate__fadeInDown modulo days">
+                        <span class="numero">00</span>
+                        <span class="etiqueta">Días</span>
+                    </div>
+                    <div class="wow animate__animated animate__fadeInDown modulo hours">
+                        <span class="numero">00</span>
+                        <span class="etiqueta">Horas</span>
+                    </div>
+                    <div class="wow animate__animated animate__fadeInDown modulo minutes">
+                        <span class="numero">00</span>
+                        <span class="etiqueta">Minutos</span>
+                    </div>
+                    <div class="wow animate__animated animate__fadeInDown modulo seconds">
+                        <span class="numero">00</span>
+                        <span class="etiqueta">Segundos</span>
+                    </div>
+                </div>
+
+                <div class="pt-40">
+                    <a target="_blank" href="https://www.google.com/calendar/render?action=TEMPLATE&text=Ceci+y+Mart%C3%ADn+se+casan%21&location=QUINTA+EL+TATA+%0AAv.+Ing.+Eduardo+Madero+1930%2C+Del+Viso%2C+Buenos+Aires&dates=20220416T200000Z%2F20220417T050000Z" class="wow animate__animated animate__fadeInDown btn btn-primary btn-lg">
+                        Agendar
+                    </a>
+                </div>
+            </div>
+            <img src="/images/01_hexagonos_inferiores.svg" alt="" class="deco hexagonos_inferiores">
+        </div>
+    </section>
+
+    <section id="ceremonia">
+        <div class="bg-2">
+            <div class="container-fluid text-center">
+                <div class="page">
+                    <div class="wow animate__animated animate__fadeIn ">
+                        <img src="/images/iglesia.svg" alt="" class="icon iglesia img-responsive">
+                    </div>
+
+                    <h2 class="wow animate__animated animate__flipInX" >Ceremonia y fiesta</h2>
+
+                    <h3 class="wow animate__animated animate__fadeInDown subtitle">QUINTA EL TATA</h3>
+                    <p class="wow animate__animated animate__fadeInDown ">
+                        Av. Ing. Eduardo Madero 1930, Del Viso, Buenos Aires
+                    </p>
+                    <a href="https://g.page/QuintaElTata?share" target="_blank" class="wow animate__animated animate__fadeInDown btn btn-primary-i btn-lg mt-30 mb-30">
+                        ¿Cómo llegar?
+                    </a>
+                    <hr class="wow animate__animated animate__fadeInDown ">
+
+
+                    <div id="vestimenta">
+                        <div id="dresscode" class="anchor"></div>
+                        <h3 class="wow animate__animated animate__flipInX ">DRESS CODE: ELEGANTE&nbsp;SPORT</h3>
+                        <p class="wow animate__animated animate__fadeInDown ">La idea es que estemos pitucos pero lo suficientemente  cómodos para que podamos bailar&nbsp;toda la noche.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <img src="/images/02_hojasderecha.png" alt="" class="deco hojasderecha">
+        <img src="/images/02_lineasderecha.svg" alt="" class="deco lineasderecha">
+        <img src="/images/02_hojasizq.png" alt="" class="deco hojasizq">
+        <img src="/images/02_lineasizquierda.svg" alt="" class="deco lineasizquierda">
+    </section>
+
+    <section id="asistencia">
+        <div class="container-fluid">
+            <div class="page">
+                <h2 class="wow animate__animated animate__flipInX ">CONFIRMACIÓN DE&nbsp;ASISTENCIA</h2>
+                <p class="wow animate__animated animate__fadeInDown ">Esperamos que seas parte de este&nbsp;gran día para nosotros.</p>
+                <a href="https://forms.gle/wT3WZ5m8Wf6piF5z9" target="_blank" class="wow animate__animated animate__fadeInDown btn btn-primary btn-lg">
+                    Confirmar asistencia
+                </a>
+                <p class="wow animate__animated animate__fadeInDown "><strong>Por favor, hacelo antes del 1 de abril 2022.</strong></p>
+            </div>
+        </div>
+        <img src="/images/04_geometricoinferior.svg" alt="" class="deco geometricoinferior">
+        <img src="/images/04_hojasinferior.png" alt="" class="deco hojasinferior">
+        <img src="/images/04_manchitasinferiores.svg" alt="" class="deco manchitasinferiores">
+        <img src="/images/04_hojassuperior.png" alt="" class="deco hojassuperior">
+        <img src="/images/04_geometricosuperior.svg" alt="" class="deco geometricosuperior">
+    </section>
+
+    <section id="regalo">
+      <div class="bg-3">
+          <div class="container-fluid">
+              <div class="page">
+                  <div class="wow animate__animated animate__fadeIn ">
+                      <img src="/images/regalos.svg" alt="" class="icon regalos img-responsive">
+                  </div>
+
+                  <h3 class="wow animate__animated animate__flipInX ">
+                      ¿QUERÉS HACERNOS UN&nbsp;REGALO?
+                  </h3>
+                  <p class="wow animate__animated animate__fadeInDown h3">Podés ayudarnos con nuestra luna de miel</p>
+                  <p class="banco">
+                      <span class="wow animate__animated animate__fadeIn">TITULAR: Cecilia Alejandra Torres</span> <br>
+                      <span class="wow animate__animated animate__fadeIn">BANCO: Santander</span> <br>
+                      <span class="wow animate__animated animate__fadeIn">SUCURSAL: 429 </span><br>
+                      <span class="wow animate__animated animate__fadeIn">CUENTA ÚNICA: 429-353062/3 </span><br>
+                      <span class="wow animate__animated animate__fadeIn">CBU: 0720429088000035306236 </span><br>
+                      <span class="wow animate__animated animate__fadeIn">ALIAS: CAT.SRio.Global</span>
+                  </p>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <section id="social">
+        <div class="container-fluid">
+            <div class="page">
+                <div id="hashtag" class="modulo">
+                    <div>
+                        <div class="wow animate__animated animate__fadeIn ">
+                            <img src="/images/instagram.svg" alt="" class="icon instagram img-responsive">
+                        </div>
+
+                        <h3 class="wow animate__animated animate__flipInX ">#CECIYMARTIN</h3>
+                        <p class="wow animate__animated animate__fadeInDown"><span class="db">¡Preparate para nuestro gran día! </span> Etiquetanos&nbsp;en Instagram con nuestro hashtag  en tus fotos, reels o videos.</p>
+                    </div>
+                    <a href="http://instagram.com/tags/ceciymartin" target="_blank" class="wow animate__animated animate__fadeInDown btn btn-primary btn-lg">
+                        Ver Hashtag
+                    </a>
+                </div>
+                <div id="canciones" class="modulo">
+                    <div>
+                        <div class="wow animate__animated animate__fadeIn ">
+                            <img src="/images/musica.svg" alt="" class="icon musica img-responsive">
+                        </div>
+
+                        <h3 class="wow animate__animated animate__flipInX ">¿QUÉ CANCIONES NO PUEDEN&nbsp;FALTAR?</h3>
+                        <p class="wow animate__animated animate__fadeInDown ">¡Ayudanos sugiriendo las canciones que pensás que no pueden faltar en la fiesta!</p>
+                    </div>
+                    <a href="https://forms.gle/nQYErnTmwPNXf7HP7" target="_blank" class="wow animate__animated animate__fadeInDown btn btn-primary btn-lg">Sugerir Canción</a>
+                </div>
+            </div>
+        </div>
+        <img src="/images/05_hojassuperiores.png" alt="" class="deco hojassuperiores">
+        <img src="/images/06_hojasinferiores.png" alt="" class="deco hojasinferiores">
+    </section>
+
+    <section id="protocolo">
+        <div class="bg-2">
+            <div class="container-fluid">
+                <div class="page">
+                    <h3 class="wow animate__animated animate__flipInX ">PROTOCOLOS COVID-19</h3>
+                    <div class="item">
+                        <div class="wow animate__animated animate__fadeInLeft imagen">
+                            <img src="/images/barbijo.svg" alt="" class="icon barbijo img-responsive">
+                        </div>
+                        <div class="contenido">
+                            <p class="wow animate__animated animate__fadeInRight ">Prepará el barbijo a tono porque vas a necesitarlo para ingresar.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="wow animate__animated animate__fadeInLeft imagen">
+                            <img src="/images/vacuna.svg" alt="" class="icon vacuna img-responsive">
+                        </div>
+                        <div class="contenido">
+                            <p class="wow animate__animated animate__fadeInRight ">
+                                Además se te solicitará el pase sanitario con vacunación completa  (2&nbsp;dosis o más) que está disponible en la aplicación CUIDAR.
+                            </p>
+                            <p class="wow animate__animated animate__fadeInRight ">
+                                De no poseerlo, se deberá contar con un PCR o antígeno negativo con 48hs. de anticipación también visible desde la misma app.
+                            </p>
+                            <p class="wow animate__animated animate__fadeInRight ">
+                                De no contar con alguna de estas dos, lamentablemente no podrás ingresar a las instalaciones.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="wow animate__animated animate__fadeInLeft imagen">
+                            <img src="/images/apestado.svg" alt="" class="icon apestado img-responsive">
+                        </div>
+                        <div class="contenido">
+                            <p class="wow animate__animated animate__fadeInRight ">
+                                Si presentas síntomas, quedate en tu casa.
+                            </p>
+                            <p class="wow animate__animated animate__fadeInRight ">Vamos a extrañarte pero es importante que nos cuidemos entre todos.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cierre">
+        <div class="page">
+            <h2 class="wow animate__animated animate__fadeInDown ">
+                ¡Gracias por acompañarnos <br>y hacer este día inolvidable!
+            </h2>
+        </div>
+    </section>
+</main>
+
+{% endblock %}
+
+{% block page_scripts %}
+    <!-- build:js /scripts/index.js -->
+    <script src="/scripts/parallax.js"></script>
+    <script src="/scripts/nav.js"></script>
+    <script src="/scripts/home.js"></script>
+    <!-- endbuild -->
+{% endblock %}
