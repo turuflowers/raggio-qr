@@ -15,17 +15,7 @@ $screen-md-max:              ($screen-lg - 1);
 $screen-lg-max:              ($screen-xl - 1);
 $screen-xl:                  1200px;
 
-#intro{
-  height:100vh;
-  display: flex;
-  align-content: center;
-  overflow: hidden;
-  position: relative;
-  .page{
-    display: flex;
-    align-content: center;
-    position: relative;
-    max-width: 100%;
-  }
-
+footer{
+  background: #000;
+  color: #fff;
 }

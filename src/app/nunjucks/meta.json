@@ -1,16 +1,16 @@
 {
     "config": {
-        "baseurl": "http://ceciymartin.com.ar/",
-        "languageurl": "http://ceciymartin.com.ar/",
+        "baseurl": "http://www.escuelaraggio.edu.ar/",
+        "languageurl": "http://www.escuelaraggio.edu.ar/",
         "locale": "es"
     },
     "meta": {
         "common": {
-            "title": "Ceci y Martín se casan!",
-            "description": "¡NOS CASAMOS! 16 de Abril, 17 hs. QUINTA EL TATA, Av. Ing. Eduardo Madero 1930, Del Viso, Buenos Aires",
+            "title": "Escuela Técnica RAGGIO",
+            "description": "",
             "keywords": "",
-            "fbimg": "http://ceciymartin.com.ar/images/fb.png?v=1",
-            "twimg": "http://ceciymartin.com.ar/images/fb.png?v=1"
+            "fbimg": "http://www.escuelaraggio.edu.ar/images/fb.png?v=1",
+            "twimg": "http://www.escuelaraggio.edu.ar/images/fb.png?v=1"
         }
     }
 }

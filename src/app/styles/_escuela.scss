@@ -15,22 +15,6 @@ $screen-md-max:              ($screen-lg - 1);
 $screen-lg-max:              ($screen-xl - 1);
 $screen-xl:                  1200px;
 
-#regalo{
-  .regalos{
-    max-width: 90px;
-  }
-  h3, .h3{
-    font-size:1.5em;
-    font-weight:200;
-    line-height: 1;
-    @media (max-width: 480px) {
-      font-size:1.25em;
-    }
+#escuela{
 
-  }
-  text-align: center;
-  .banco{
-    line-height: 2;
-    margin-top:2em;
-  }
 }

@@ -193,16 +193,9 @@ img{
   display: block;
 }
 
-.deco{
-  position: absolute;
-}
-
-@import "_nav.scss";
+@import "_header.scss";
 @import "_intro.scss";
-@import "_home.scss";
-@import "_ceremonia.scss";
-@import "_asistencia.scss";
-@import "_regalos.scss";
-@import "_social.scss";
-@import "_protocolo.scss";
-@import "_cierre.scss";
+@import "_escuela.scss";
+@import "_superior.scss";
+
+@import "_footer.scss";

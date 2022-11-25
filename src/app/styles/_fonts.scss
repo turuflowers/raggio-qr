@@ -1,87 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap');
 
-@font-face {
-  font-family: 'Hello Honey';
-  font-style: normal;
-  font-weight: 400;
-  src: url(/fonts/hellohoney/hellohoney.woff) format('woff'), url(/fonts/hellohoney/hellohoney.ttf) format('truetype'), url(/fonts/hellohoney/hellohoney.woff2) format('woff2');
-  font-display: swap;
-}
-
-/* poppins-100 - latin */
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 100;
-  src: local(''),
-  url('/fonts/poppins/poppins-v19-latin-100.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('/fonts/poppins/poppins-v19-latin-100.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* poppins-200 - latin */
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 200;
-  src: local(''),
-  url('/fonts/poppins/poppins-v19-latin-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('/fonts/poppins/poppins-v19-latin-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* poppins-300 - latin */
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 300;
-  src: local(''),
-  url('/fonts/poppins/poppins-v19-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('/fonts/poppins/poppins-v19-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* poppins-regular - latin */
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-  url('/fonts/poppins/poppins-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('/fonts/poppins/poppins-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* poppins-500 - latin */
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  src: local(''),
-  url('/fonts/poppins/poppins-v19-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('/fonts/poppins/poppins-v19-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* poppins-600 - latin */
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  src: local(''),
-  url('/fonts/poppins/poppins-v19-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('/fonts/poppins/poppins-v19-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* poppins-700 - latin */
-@font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  src: local(''),
-  url('/fonts/poppins/poppins-v19-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('/fonts/poppins/poppins-v19-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+.ff-2{
+  font-family: 'Merriweather', serif;
 }
 
 a{cursor: pointer}
-
-.ff-1{
-  font-family: 'Hello Honey', sans-serif;
-}
-.ff-2{
-  font-family: 'Poppins', sans-serif;
-  font-weight: normal;
-}
-
 
 html {
   font-size: 100%;
@@ -92,8 +15,8 @@ body{
   color:$color0;
   font-size:16px;
   line-height: 21px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 h1, .h1,
@@ -102,63 +25,56 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6{
-  font-family: 'Poppins', sans-serif !important;
-  font-weight: 300;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 700;
   text-align: center;
+  &.deco{
+    &:after{
+      content: "";
+      width:50%;
+      max-width: 200px;
+      display: block;
+      height:3px;
+      background: #000;
+      margin: 0 auto;
+    }
+  }
 }
 
 h1, .h1 {
   font-size: 3em;
   line-height: 1.5;
   margin: .5em 0;
-  @media (max-width: $screen-xs-max) {
-    font-size: 2em;
-  }
 }
 
 h2, .h2 {
-  font-size: 1.5em;
+  font-size: 3em;
   line-height: 2.25;
   margin: .5em 0;
-  @media (max-width: $screen-xs-max) {
-    font-size: 1.8em;
-  }
 }
 
 h3, .h3 {
-  font-size: 2em;
+  font-size: 1.25em;
   line-height: 1.5;
   margin: .5em 0;
-  @media (max-width: $screen-xs-max) {
-    font-size: 1.4em;
-  }
 }
 
 h4, .h4 {
   font-size: 1.75em;
   line-height: 1.5;
   margin: .5em 0;
-  @media (max-width: $screen-xs-max) {
-    font-size: 1.3em;
-  }
 }
 
 h5, .h5 {
   font-size: 1.5em;
   line-height: 1.5;
   margin: 1em 0;
-  @media (max-width: $screen-xs-max) {
-    font-size: 1.2em;
-  }
 }
 
 h6, .h6 {
   font-size: 1.25em;
   line-height: 1.5;
   margin: 1em 0;
-  @media (max-width: $screen-xs-max) {
-    font-size: 1.1em;
-  }
 }
 
 .fs-legal{
