@@ -26,6 +26,13 @@ $screen-xl:                  1200px;
   .info{
     padding:2em 0;
   }
+  h2, h3{
+    &.deco{
+      &:after{
+        background: #fff;
+      }
+    }
+  }
   h3{
     font-size:2.1875em;
     font-weight:500;
@@ -34,10 +41,5 @@ $screen-xl:                  1200px;
     max-width: 20em;
     margin-top:2em;
     margin-bottom:2em;
-    &.deco{
-      &:after{
-        background: #fff;
-      }
-    }
   }
 }

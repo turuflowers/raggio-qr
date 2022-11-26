@@ -173,7 +173,7 @@
     <div class="container-fluid">
         <div class="page text-center">
             <p class="">
-                © 2022 -  Escuela Técnica Raggio. Gobierno de la Ciudad de Buenos&nbsp;Aires
+                © 2022 -  Escuela Técnica Raggio. <span class="caba">Gobierno de la Ciudad de Buenos&nbsp;Aires</span>
                 <span class="d-block">
                     Todos los derechos reservados.
                 </span>

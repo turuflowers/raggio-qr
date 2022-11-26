@@ -18,4 +18,10 @@ $screen-xl:                  1200px;
 footer{
   background: #000;
   color: #fff;
+  font-size:14px;
+  .caba{
+    @media (max-width: $screen-sm) {
+      display: block;
+    }
+  }
 }
