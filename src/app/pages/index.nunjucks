@@ -25,31 +25,29 @@
     <header>
         <div class="page">
             <div class="escudoraggio">
-                <img src="qr/images/escudo-raggio.svg" alt="">
-                Escuela Técnica Raggio
+                <img src="qr/images/escudoRaggio.svg" alt="">
+                <div>Escuela <br> Técnica Raggio</div>
             </div>
             <div class="escudocaba">
-                <img src="qr/images/escudo-caba.svg" alt="">
-                Gobierno de la <br>
-                Ciudad de Buenos Aires
+                <img src="qr/images/escudoCaba.svg" alt="">
+                <div>Gobierno de la <br>
+                Ciudad de Buenos Aires</div>
             </div>
         </div>
     </header>
 <main>
     <section id="intro">
-        <div class="page">
-            <h1>
-                La Raggio, tu futuro
-            </h1>
+        <h1>
+            La Raggio, <br>tu futuro
+        </h1>
 
-            <div class="expofecha">
-                <h2>
-                    Expo Raggio 2022
-                </h2>
-                <p class="h2 text-uppercase">
-                    3 y 4 de diciembre - 18 a 24H
-                </p>
-            </div>
+        <div class="expofecha">
+            <h2>
+                Expo Raggio 2022
+            </h2>
+            <p class="h2 text-uppercase">
+                3 y 4 de diciembre - 18&nbsp;a&nbsp;24H
+            </p>
         </div>
     </section>
     <section id="escuela">
@@ -153,7 +151,7 @@
 <footer>
     <div class="container-fluid">
         <div class="page text-center">
-            <p class="wow animate__animated animate__fadeInDown">
+            <p class="">
                 © 2022 -  Escuela Técnica Raggio. Gobierno de la Ciudad de Buenos Aires
                 <span class="d-block">
                     Todos los derechos reservados.

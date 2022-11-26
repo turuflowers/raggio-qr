@@ -16,16 +16,81 @@ $screen-lg-max:              ($screen-xl - 1);
 $screen-xl:                  1200px;
 
 #intro{
-  height:100vh;
-  display: flex;
-  align-content: center;
+  height:calc(100vh - 100px);
+  min-height: 668px;
+  max-height:760px;
   overflow: hidden;
   position: relative;
-  .page{
-    display: flex;
-    align-content: center;
-    position: relative;
-    max-width: 100%;
+  background: url("/qr/images/hero.jpg") no-repeat right center;
+  background-size: cover;
+  @media (max-width: 1200px) {
+    background-position: 40% center;
+  }
+  @media (max-width: 800px) {
+    background-position: 30% center;
+  }
+  @media (max-width: $screen-sm) {
+    background: url("/qr/images/hero_mb.jpg") no-repeat center ;
+    background-size: 100% auto;
+    height:100vh;
+    max-height: 344px;
+    min-height: 0;
   }
 
+  h1, .expofecha{
+    position: absolute;
+    left:45%;
+    //@media (min-width: 1500px) {
+    //  left:45%;
+    //}
+  }
+  h1{
+    top:50%;
+    transform: translateY(-40%);
+  }
+  .expofecha{
+    bottom:3em;
+    @media (max-width: $screen-sm) {
+      bottom:1em;
+    }
+  }
+
+  h1{
+    font-weight:300;
+    font-size:5em;
+    text-align: left;
+    line-height: 1;
+    padding-bottom:2em;
+    @media (max-width: 920px) {
+      font-size:3em;
+    }
+    @media (max-width: $screen-sm) {
+      font-size:1.875em;
+    }
+  }
+  h2, .h2{
+    font-size:1.875em;
+    font-weight:700;
+    text-align: left;
+    line-height: 1;
+    @media (max-width: 920px) {
+      font-size:1.5em;
+    }
+    @media (max-width: $screen-sm) {
+      font-size:1em;
+    }
+  }
+  h2{
+    &:after{
+      content: "";
+      height:5px;
+      background: #000;
+      width:100px;
+      display: block;
+      margin-top:.5em;
+      @media (max-width: $screen-md) {
+        height:3px;
+      }
+    }
+  }
 }

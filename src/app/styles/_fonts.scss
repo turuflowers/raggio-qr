@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap');
 
-.ff-2{
-  font-family: 'Merriweather', serif;
-}
 
 a{cursor: pointer}
 
@@ -16,7 +13,12 @@ body{
   font-size:16px;
   line-height: 21px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
+}
+
+.ff-2{
+  font-family: 'Merriweather', serif;
+  font-weight:400;
 }
 
 h1, .h1,
@@ -28,6 +30,7 @@ h6, .h6{
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
   &.deco{
     &:after{
       content: "";
