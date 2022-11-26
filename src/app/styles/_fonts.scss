@@ -35,9 +35,9 @@ h6, .h6{
     &:after{
       content: "";
       width:50%;
-      max-width: 200px;
+      max-width: 170px;
       display: block;
-      height:3px;
+      height:4px;
       background: #000;
       margin: 0 auto;
     }
@@ -54,12 +54,17 @@ h2, .h2 {
   font-size: 3em;
   line-height: 2.25;
   margin: .5em 0;
+  @media (max-width: $screen-sm) {
+    font-size:2em;
+    line-height: 1.5;
+  }
 }
 
 h3, .h3 {
   font-size: 1.25em;
   line-height: 1.5;
   margin: .5em 0;
+
 }
 
 h4, .h4 {

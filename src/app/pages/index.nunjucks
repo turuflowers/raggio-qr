@@ -38,14 +38,15 @@
 <main>
     <section id="intro">
         <h1>
-            La Raggio, <br>tu futuro
+            <span class="wow animate__animated animate__fadeInDown">La Raggio, <br>tu futuro</span>
+
         </h1>
 
         <div class="expofecha">
-            <h2>
+            <h2 class="wow animate__animated animate__flipInX">
                 Expo Raggio 2022
             </h2>
-            <p class="h2 text-uppercase">
+            <p class="h2 text-uppercase animate__animated animate__fadeIn">
                 3 y 4 de diciembre - 18&nbsp;a&nbsp;24H
             </p>
         </div>
@@ -60,20 +61,28 @@
                     Nuestra institución tiene xx años de trayectoria.....Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus erat ac maximus laoreet. Pellentesque consectetur turpis a tempor vestibulum. Nam in auctor mi. Donec tristique ultrices dictum. Vestibulum facilisis ornare arcu ac efficitur.
                 </p>
 
-                <h2 class="deco wow animate__animated animate__flipInX ">
-                    Ciclo Básico
-                </h2>
-                <p class="ff-2 wow animate__animated animate__fadeInDown text-center fs-big">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus erat ac maximus laoreet. Pellentesque consectetur turpis a tempor vestibulum. Nam in auctor mi. Donec tristique ultrices dictum. Vestibulum facilisis ornare arcu ac efficitur.
-                </p>
-
-                <div class="duracion">
-                    2 años
-                    de duración
+                <div class="basico">
+                    <h2 class="deco wow animate__animated animate__flipInX ">
+                        Ciclo Básico
+                    </h2>
+                    <p class="ff-2 wow animate__animated animate__fadeInDown text-center fs-big">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus erat ac maximus laoreet. Pellentesque consectetur turpis a tempor vestibulum. Nam in auctor mi. Donec tristique ultrices dictum. Vestibulum facilisis ornare arcu ac efficitur.
+                    </p>
                 </div>
-                <div class="duracion">
-                    2 años
-                    de duración
+
+                <div class="info">
+                    <div class="duracion wow animate__animated animate__flipInX">
+                        <img src="/qr/images/time.svg" alt="">
+                        <div>
+                            <span>2 años</span> de duración
+                        </div>
+                    </div>
+                    <div class="duracion wow animate__animated animate__flipInX">
+                        <img src="/qr/images/time.svg" alt="">
+                        <div>
+                            <span>2 años</span> de duración
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -88,13 +97,19 @@
                 <p class="ff-2 wow animate__animated animate__fadeInDown text-center fs-big">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus erat ac maximus laoreet. Pellentesque consectetur turpis a tempor vestibulum. Nam in auctor mi. Donec tristique ultrices dictum. Vestibulum facilisis ornare arcu ac efficitur.
                 </p>
-                <div class="duracion">
-                    2 años
-                    de duración
-                </div>
-                <div class="duracion">
-                    2 años
-                    de duración
+                <div class="info">
+                    <div class="duracion wow animate__animated animate__flipInX">
+                        <img src="/qr/images/time_wht.svg" alt="">
+                        <div>
+                            <span>2 años</span> de duración
+                        </div>
+                    </div>
+                    <div class="duracion wow animate__animated animate__flipInX">
+                        <img src="/qr/images/time_wht.svg" alt="">
+                        <div>
+                            <span>2 años</span> de duración
+                        </div>
+                    </div>
                 </div>
 
                 <h3 class="deco wow animate__animated animate__flipInX">
@@ -127,18 +142,24 @@
             <div class="page">
 
                 <div class="row">
-                    <div class="col-xs-12 col-sm-4">
-                        <h3 class="deco">Sitio oficial</h3>
-                        <p class="ff-2"><a href="www.escuelaraggio.edu.ar">www.escuelaraggio.edu.ar</a></p>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="wow animate__animated animate__flipInX">
+                            <h3 class="deco">Sitio oficial</h3>
+                            <p class="ff-2"><a href="http://www.escuelaraggio.edu.ar">www.escuelaraggio.edu.ar</a></p>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <h3 class="deco">¿Dónde estamos?</h3>
-                        <p class="ff-2">Av. Del Libertador 8635. Nuñez, CABA</p>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="wow animate__animated animate__flipInX">
+                            <h3 class="deco">¿Dónde estamos?</h3>
+                            <p class="ff-2">Av. Del Libertador 8635. Nuñez, CABA</p>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <h3 class="deco">Contacto</h3>
-                        <p class="ff-2">Teléfono: 4701.1791</p>
-                        <p class="ff-2">Mail: casillademail@raggio.edu.ar</p>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="wow animate__animated animate__flipInX">
+                            <h3 class="deco">Contacto</h3>
+                            <p class="ff-2">Teléfono: 4701.1791</p>
+                            <p class="ff-2">Mail: casillademail@raggio.edu.ar</p>
+                        </div>
                     </div>
                 </div>
 
@@ -152,7 +173,7 @@
     <div class="container-fluid">
         <div class="page text-center">
             <p class="">
-                © 2022 -  Escuela Técnica Raggio. Gobierno de la Ciudad de Buenos Aires
+                © 2022 -  Escuela Técnica Raggio. Gobierno de la Ciudad de Buenos&nbsp;Aires
                 <span class="d-block">
                     Todos los derechos reservados.
                 </span>

@@ -16,5 +16,61 @@ $screen-lg-max:              ($screen-xl - 1);
 $screen-xl:                  1200px;
 
 #escuela{
+  background:url("/qr/images/escuela_puntitos_vt.png") no-repeat 98% 1%, url("/qr/images/escuela_cruz.png") no-repeat 100% 16%, url("/qr/images/escuela_chevron.png") no-repeat 1% 50%, url("/qr/images/escuela_puntitos_hz.jpg") no-repeat 0% 85%;
+  //background: url("/qr/images/escuela_bg.jpeg") no-repeat center top;
+  //background-size: 100% auto;
+  //@media (min-width: 1370px) {
+  //  background-size: auto;
+  //}
+  @media (max-width: $screen-lg) {
+    background-position: 95% 1%, 98% 8%, 0% 50%, -13% 100%;
+    background-size: 4% auto, 8% auto, 4% auto, 15% auto;
+  }
+  @media (max-width: $screen-sm) {
+    background-position: 95% 1%, 99% 6%, 0% 50%, -13% 100%;
+    background-size: 6% auto, 15% auto, 6% auto, 20% auto;
+  }
+  .page{
 
+  }
+  p{
+    margin: 0 auto;
+    width:100%;
+    max-width: 32em;
+  }
+  .basico{
+    padding-top:3em;
+    padding-bottom:3em;
+  }
+
+}
+.info{
+  display: flex;
+  justify-content: center;
+  @media (max-width: $screen-sm) {
+    flex-direction: column;
+  }
+}
+.duracion{
+  display: flex;
+  align-items: center;
+  margin:0 1em;
+  @media (max-width: $screen-sm) {
+    justify-content: center;
+    margin-bottom:1em;
+    margin-top:1em;
+  }
+  div{
+    padding:0 .5em;
+    font-family: 'Merriweather', serif;
+    font-weight:400;
+    font-size:1.25em;
+    line-height:1;
+    span{
+      font-family: 'Montserrat', sans-serif;
+      font-weight:500;
+      font-size:2.1875rem;
+      display: block;
+    }
+  }
 }
