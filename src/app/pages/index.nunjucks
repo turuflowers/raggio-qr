@@ -112,28 +112,222 @@
                     </div>
                 </div>
 
-                <h3 class="deco wow animate__animated animate__flipInX">
-                    Descubrí las 11 especialidades entre las que podrás elegir
-                </h3>
 
-                <div class="especialidades">
-                    <div class="item">
-                        <div class="imagen">
-                            <img src="" alt="">
-                        </div>
-                        <h4 class="wow animate__animated animate__flipInX">
+
+            </div>
+
+
+        </div>
+        <h3 class="deco wow animate__animated animate__flipInX">
+            Descubrí las 11 especialidades entre las que podrás elegir
+        </h3>
+        <div class="especialidades">
+            <div class="grid-item">
+                <div class="content">
+                    <div class="imagen" style="background-image: url(/qr/images/especialidades_maestro_de_obras.jpg)">
+                    </div>
+                    <div class="desc">
+                        <h4 class="">
                             Maestro Mayor de Obras
                         </h4>
                         <button>
                             <span class="sr-only">
                                 Ver más
                             </span>
-                            <img src="" alt="">
+                            <img src="/qr/images/plus.svg" alt="">
                         </button>
+                    </div>
+                    <div class="details">
+                        <h5>Salida Laboral</h5>
+                        <ul>
+                            <li>Proyecto de obra.</li>
+                            <li>Dirección y ejecución de obra.</li>
+                            <li>Inspección de obra.</li>
+                            <li>Instalador para obras sanitarias. Instalador para gas.</li>
+                            <li>Dibujante.</li>
+                        </ul>
                     </div>
                 </div>
 
             </div>
+            <div class="grid-item">
+                <div class="content">
+                    <div class="imagen" style="background-image: url(/qr/images/especialidades_tecnico_automotores.jpg)">
+                    </div>
+                    <div class="desc">
+                        <h4 class="">
+                            Técnico/a en Automotores
+                        </h4>
+                        <button>
+                            <span class="sr-only">
+                                Ver más
+                            </span>
+                            <img src="/qr/images/plus.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="details">
+                        <p>El Técnico en Automotores  es un profesional en el campo de la Mecánica automotriz capacitado para  desempeñarse libremente  en el Área, mediante sus conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo, conforme a criterios de profesionalidad propias de su especialidad y de responsabilidad social en los siguientes campos:</p>
+                        <ul>
+                            <li>Diseñar y proyectar componentes, dispositivos, equipos e instalaciones mecánicas de baja y mediana complejidad.</li>
+                            <li>Efectuar el proyecto y montaje de equipos constitutivos del Automotor. Programar y realizar el mantenimiento de instalaciones mecánicas.</li>
+                            <li>Instalar elementos, dispositivos y  equipamiento  mecánico  de los talleres de reparación y/o mantenimiento del automotor.</li>
+                            <li>Realizar los servicios de reparación y/o mantenimiento de automotores.</li>
+                            <li>Prestar servicios de consultoría y de asesoramiento técnico, en la selección, adquisición y montaje de elementos y dispositivos mecánicos.</li>
+                            <li>Efectuar ensayos de materiales y de comprobación de funcionamiento de conjunto automotor.</li>
+                            <li>Asesorar, gestionar y/o Generar nuevos emprendimientos vinculados con el Área de desempeño correspondiente a su profesionalidad. Supervisar  transmisión de datos eléctricos y electrónicos, combustibles líquidos, gaseosos y alternativos y/o conjuntos del automotor así como de unidades completas.</li>
+                        </ul>
+                        <h5>Salida Laboral</h5>
+                        <p>El Técnico en Automotores  es un profesional, capacitado para actuar individualmente o en equipo en el asesoramiento, generación, concreción y gestión de emprendimientos en el Área de su competencia, como así también en el ámbito de la producción de bienes y servicios a saber:</p>
+                        <ul>
+                            <li>En talleres y empresas industriales y autopartistas.</li>
+                            <li>Dibujante  mediante software CAD- CAM o Proyectista.</li>
+                            <li>Supervisión y control de procesos industriales.  Service automotriz en general.</li>
+                            <li>Diseño y proyecto de máquinas y mecanismos. Revisión técnica y general de vehículos.</li>
+                            <li>Supervisión y control de procesos industriales, instalación y puesta en marcha de equipos GNC.</li>
+                            <li>Desde la fabricación el primer auto la industria automotriz ha sido uno de los mercados más importantes a nivel mundial. La constante  evolución tecnológica  ha llevado a necesitar de personas altamente capacitadas, para poder diseñar, producir y llevar un mantenimiento adecuado de los automóviles. En la especialidad de automotores preparamos a nuestros alumnos, no solo para cumplir con estas demandas, sino también les otorgamos las herramientas para poder desarrollarse de una manera eficiente en el mercado.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="content">
+                    <div class="imagen" style="background-image: url(/qr/images/especialidades_tecnico_electricista.jpg)">
+                    </div>
+                    <div class="desc">
+                        <h4 class="">
+                            Técnico/a Electricista
+                        </h4>
+                        <button>
+                            <span class="sr-only">
+                                Ver más
+                            </span>
+                            <img src="/qr/images/plus.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="details">
+                        <p>El Técnico Electricista proyecta, diseña y realiza el montaje de instalaciones electricas y de iluminacion en viviendas y fabricas. En ambitos industriales diseña e instala equipos y circuitos de automatizacion. Ademas realiza el control de motores electricos y puede realizar el mantenimiento de equipos electricos.</p>
+                        <p>Se aprende:</p>
+                        <ul>
+                            <li>Circuitos electricos</li>
+                            <li>Automatizacion</li>
+                            <li>Analisis, mediciones y ensayos de circuitos electricos</li>
+                            <li>control de maquinas electricas</li>
+                            <li>Instalaciones electricas y especiales</li>
+                            <li>Generacion y distribucion de la energia</li>
+                        </ul>
+                        <h5>Salida Laboral</h5>
+                        <p>El Tecnico Electricista trabaja en viviendas, locales comerciales, fabricas, talleres y en empresas de generacion y distribucion de energia elecrica</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="grid-item">
+                <div class="content">
+                    <div class="imagen" style="background-image: url(/qr/images/especialidades_tecnico_electricista.jpg)">
+                    </div>
+                    <div class="desc">
+                        <h4 class="">
+                            Técnico/a Electricista
+                        </h4>
+                        <button>
+                            <span class="sr-only">
+                                Ver más
+                            </span>
+                            <img src="/qr/images/plus.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="details">
+                        <p>El Técnico Electricista proyecta, diseña y realiza el montaje de instalaciones electricas y de iluminacion en viviendas y fabricas. En ambitos industriales diseña e instala equipos y circuitos de automatizacion. Ademas realiza el control de motores electricos y puede realizar el mantenimiento de equipos electricos.</p>
+                        <p>Se aprende:</p>
+                        <ul>
+                            <li>Circuitos electricos</li>
+                            <li>Automatizacion</li>
+                            <li>Analisis, mediciones y ensayos de circuitos electricos</li>
+                            <li>control de maquinas electricas</li>
+                            <li>Instalaciones electricas y especiales</li>
+                            <li>Generacion y distribucion de la energia</li>
+                        </ul>
+                        <h5>Salida Laboral</h5>
+                        <p>El Tecnico Electricista trabaja en viviendas, locales comerciales, fabricas, talleres y en empresas de generacion y distribucion de energia elecrica</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="content">
+                    <div class="imagen" style="background-image: url(/qr/images/especialidades_maestro_de_obras.jpg)">
+                    </div>
+                    <div class="desc">
+                        <h4 class="">
+                            Maestro Mayor de Obras
+                        </h4>
+                        <button>
+                            <span class="sr-only">
+                                Ver más
+                            </span>
+                            <img src="/qr/images/plus.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="details">
+                        <h5>Salida Laboral</h5>
+                        <ul>
+                            <li>Proyecto de obra.</li>
+                            <li>Dirección y ejecución de obra.</li>
+                            <li>Inspección de obra.</li>
+                            <li>Instalador para obras sanitarias. Instalador para gas.</li>
+                            <li>Dibujante.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="content">
+                    <div class="imagen" style="background-image: url(/qr/images/especialidades_tecnico_automotores.jpg)">
+                    </div>
+                    <div class="desc">
+                        <h4 class="">
+                            Técnico/a en Automotores
+                        </h4>
+                        <button>
+                            <span class="sr-only">
+                                Ver más
+                            </span>
+                            <img src="/qr/images/plus.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="details">
+                        <p>El Técnico en Automotores  es un profesional en el campo de la Mecánica automotriz capacitado para  desempeñarse libremente  en el Área, mediante sus conocimientos, habilidades, destrezas, valores y actitudes en situaciones reales de trabajo, conforme a criterios de profesionalidad propias de su especialidad y de responsabilidad social en los siguientes campos:</p>
+                        <ul>
+                            <li>Diseñar y proyectar componentes, dispositivos, equipos e instalaciones mecánicas de baja y mediana complejidad.</li>
+                            <li>Efectuar el proyecto y montaje de equipos constitutivos del Automotor. Programar y realizar el mantenimiento de instalaciones mecánicas.</li>
+                            <li>Instalar elementos, dispositivos y  equipamiento  mecánico  de los talleres de reparación y/o mantenimiento del automotor.</li>
+                            <li>Realizar los servicios de reparación y/o mantenimiento de automotores.</li>
+                            <li>Prestar servicios de consultoría y de asesoramiento técnico, en la selección, adquisición y montaje de elementos y dispositivos mecánicos.</li>
+                            <li>Efectuar ensayos de materiales y de comprobación de funcionamiento de conjunto automotor.</li>
+                            <li>Asesorar, gestionar y/o Generar nuevos emprendimientos vinculados con el Área de desempeño correspondiente a su profesionalidad. Supervisar  transmisión de datos eléctricos y electrónicos, combustibles líquidos, gaseosos y alternativos y/o conjuntos del automotor así como de unidades completas.</li>
+                        </ul>
+                        <h5>Salida Laboral</h5>
+                        <p>El Técnico en Automotores  es un profesional, capacitado para actuar individualmente o en equipo en el asesoramiento, generación, concreción y gestión de emprendimientos en el Área de su competencia, como así también en el ámbito de la producción de bienes y servicios a saber:</p>
+                        <ul>
+                            <li>En talleres y empresas industriales y autopartistas.</li>
+                            <li>Dibujante  mediante software CAD- CAM o Proyectista.</li>
+                            <li>Supervisión y control de procesos industriales.  Service automotriz en general.</li>
+                            <li>Diseño y proyecto de máquinas y mecanismos. Revisión técnica y general de vehículos.</li>
+                            <li>Supervisión y control de procesos industriales, instalación y puesta en marcha de equipos GNC.</li>
+                            <li>Desde la fabricación el primer auto la industria automotriz ha sido uno de los mercados más importantes a nivel mundial. La constante  evolución tecnológica  ha llevado a necesitar de personas altamente capacitadas, para poder diseñar, producir y llevar un mantenimiento adecuado de los automóviles. En la especialidad de automotores preparamos a nuestros alumnos, no solo para cumplir con estas demandas, sino también les otorgamos las herramientas para poder desarrollarse de una manera eficiente en el mercado.</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+
         </div>
     </section>
 
@@ -145,7 +339,7 @@
                     <div class="col-xs-12 col-md-4">
                         <div class="wow animate__animated animate__flipInX">
                             <h3 class="deco">Sitio oficial</h3>
-                            <p class="ff-2"><a href="http://www.escuelaraggio.edu.ar">www.escuelaraggio.edu.ar</a></p>
+                            <p class="ff-2"><a href="http://www.escuelaraggio.edu.ar" target="_blank">www.escuelaraggio.edu.ar</a></p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-4">

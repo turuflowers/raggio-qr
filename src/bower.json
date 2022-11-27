@@ -19,7 +19,8 @@
     "jquery": "^3.4.1",
     "css-common": "^1.0.0",
     "components-font-awesome": "^5.15.4",
-    "wow": "^1.1.2"
+    "wow": "^1.1.2",
+    "isotope-layout": "isotope#^3.0.6"
   },
   "overrides": {
     "bootstrap-sass": {
@@ -28,6 +29,10 @@
         "assets/fonts/bootstrap/*",
         "assets/javascripts/bootstrap.js"
       ]
+    },
+    "isotope-layout": {
+      "main": "dist/isotope.pkgd.min.js",
+      "dependencies": {}
     }
   },
   "devDependencies": {}
